@@ -6,13 +6,24 @@
 	export { H1 as h1 };
 </script>
 
+<script>
+	export let title;
+</script>
+
 <div class="post-page">
+	<h1>{title}</h1>
 	<slot />
 </div>
 
-<style>
+<style lang="scss">
 	.post-page {
+		margin: 1rem;
 		display: flex;
 		flex-direction: column;
+		font-family: 'Noto Sans';
+
+		h1 {
+			font-weight: 400;
+		}
 	}
 </style>
