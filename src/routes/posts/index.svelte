@@ -54,7 +54,7 @@
 	</ul>
 </div>
 
-<style>
+<style lang="scss">
 	.blog-index-wrapper {
 		display: flex;
 		flex-direction: column;
