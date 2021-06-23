@@ -9,7 +9,10 @@ const config = {
 		mdsvex({
 			layout: {
 				posts: './src/routes/posts/layout.svelte'
-			}
+			},
+			highlighter: (code, lang) => {
+				return `<Components.pre code={\`${escape(code)}\`} lang={\`${lang}\`} />`;
+			},
 		}),
 		sveltePreprocess()
 	],

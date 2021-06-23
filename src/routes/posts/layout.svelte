@@ -1,9 +1,11 @@
 <script context="module">
 	// the blog posts layout
-
+	import 'prism-themes/themes/prism-dracula.css';
 	// the following components are now available in every .svx file and map to common markdown elements such as h1-h6 and p.
-	import H1 from '$lib/components/H1.svelte';
-	export { H1 as h1 };
+	import h1 from '$lib/elements/h1.svelte';
+	import p from '$lib/elements/p.svelte';
+	import pre from '$lib/elements/pre.svelte';
+	export { h1, p, pre };
 </script>
 
 <script>
@@ -17,13 +19,9 @@
 
 <style lang="scss">
 	.post-page {
-		margin: 1rem;
+		margin: 1rem auto;
 		display: flex;
 		flex-direction: column;
-		font-family: 'Noto Sans';
-
-		h1 {
-			font-weight: 400;
-		}
+		max-width: 1000px;
 	}
 </style>

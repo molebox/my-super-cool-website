@@ -21,5 +21,9 @@
     "svelte": "^3.34.0",
     "svelte-preprocess": "^4.7.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "prism-themes": "^1.7.0",
+    "svelte-media": "^0.1.4"
+  }
 }
