@@ -10,7 +10,7 @@ const config = {
 			layout: {
 				posts: './src/routes/posts/layout.svelte'
 			},
-			highlighter: (code, lang) => {
+			highlight: (code, lang) => {
 				return `<Components.pre code={\`${escape(code)}\`} lang={\`${lang}\`} />`;
 			},
 		}),

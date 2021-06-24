@@ -347,7 +347,13 @@ We can view the following example which uses the react-three-fiber Three element
       </Sphere>
     </Canvas>
 ```
-<CodeSandbox codeSandboxId="takeshape-article-3-spheres-el11e?fontsize=14&hidenavigation=1&theme=dark"/>
+
+<iframe src="https://codesandbox.io/embed/takeshape-article-3-spheres-el11e?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden; margin 2rem auto;"
+     title="TakeShape article 3 spheres"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## The model
 

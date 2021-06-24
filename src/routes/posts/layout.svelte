@@ -3,9 +3,10 @@
 	import 'prism-themes/themes/prism-dracula.css';
 	// the following components are now available in every .svx file and map to common markdown elements such as h1-h6 and p.
 	import h1 from '$lib/elements/h1.svelte';
+	import h2 from '$lib/elements/h2.svelte';
 	import p from '$lib/elements/p.svelte';
 	import pre from '$lib/elements/pre.svelte';
-	export { h1, p, pre };
+	export { h1, h2, p, pre };
 </script>
 
 <script>

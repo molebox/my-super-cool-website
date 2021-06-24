@@ -5,7 +5,7 @@
 
 <style>
 	p {
-		font-family: 'Benne', serif;
+		font-family: 'Bentham', serif;
 		font-size: large;
 	}
 </style>

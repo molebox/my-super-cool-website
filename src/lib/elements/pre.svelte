@@ -1,3 +1,9 @@
 <script></script>
 
-<pre class="line-numbers"><code><slot/></code></pre>
+<pre><code><slot/></code></pre>
+
+<style>
+	pre {
+		border: solid 5px blue !important;
+	}
+</style>

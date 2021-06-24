@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<h1><slot /></h1>
+<h2><slot /></h2>
 
 <style>
-	h1 {
+	h2 {
 		font-family: 'Benne', serif;
 		font-weight: lighter;
 	}
